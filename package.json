@@ -1,5 +1,5 @@
 {
-  "name": "timestamp",
+  "name": "header",
   "version": "1.0.0",
   "description": "fcc project",
   "main": "server.js",
@@ -11,6 +11,8 @@
   "dependencies": {
     "express": "^4.14.0",
     "http": "0.0.0",
+    "ip": "^1.1.4",
+    "os-locale": "^2.0.0",
     "url": "^0.11.0"
   }
 }
