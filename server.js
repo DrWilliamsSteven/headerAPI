@@ -5,6 +5,7 @@ var url = require("url");
 var path = require("path");
 
 var app = express();
+var port = process.env.PORT || 8080
 
 var result;
 
@@ -26,6 +27,6 @@ app.use(function(request, response) {
   response.writeHead(200, { "Content-Type": "application/json" });
   response.end(JSON.stringify(result));
 });
- app.listen(8080);
+ app.listen(port);
 
 
