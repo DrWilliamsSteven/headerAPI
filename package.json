@@ -7,7 +7,7 @@
     "test": "test",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Steven Williams",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
